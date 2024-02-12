@@ -24,15 +24,5 @@ public class Role implements Serializable{
     private String name;
     @Column(length = 50, nullable = true)
     private String description;
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    private Long id;
-//    @Column(name = "nom_role", length = 50, nullable = false)
-//    private String nomRole;
-//
-//    @Column(name = "desc_role", length = 100, nullable = true)
-//    private String descRole;
-//
-//    @OneToMany(mappedBy = "role")
-//    Collection<User> users =  new ArrayList<>();
+
 }
